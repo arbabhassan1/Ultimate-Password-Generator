@@ -13,14 +13,19 @@ const Navbar = () => {
         <h1 className="font-bold text-xl">Ultimate Password Generator</h1>
       </Link>
       <div className="hidden sm:flex items-center justify-center gap-4">
-        <FaGithub
-          className="hover:text-primary text-2xl cursor-pointer"
-          title="Github Repo"
-        />
-        <IoMdLink
-          className="hover:text-primary text-2xl cursor-pointer"
-          title="Link"
-        />
+        <a href="https://github.com/arbabhassan1/" target="_blank">
+          {" "}
+          <FaGithub
+            className=" text-2xl hover:scale-125 cursor-pointer"
+            title="Github Repo"
+          />
+        </a>
+        <a href="https://arbabhassan.bio.link" target="_blank">
+          <IoMdLink
+            className=" hover:scale-125 text-2xl cursor-pointer"
+            title="Link"
+          />
+        </a>
       </div>
     </nav>
   );

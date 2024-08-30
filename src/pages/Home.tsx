@@ -1,10 +1,9 @@
-import { Input, Passwordcopy } from "../components";
+import { Input } from "../components";
 
 const Home = () => {
   return (
-    <div>
+    <div className="w-full h-[calc(100vh-9rem)]">
       <Input />
-      <Passwordcopy />
     </div>
   );
 };

@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import { Navbar } from "./components";
+import { Navbar, Footer } from "./components";
 import { Home, Error404 } from "./pages";
 const App = () => {
   return (
@@ -9,6 +9,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="*" element={<Error404 />} />
       </Routes>
+      <Footer />
     </div>
   );
 };

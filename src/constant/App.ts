@@ -1,4 +1,4 @@
-function generateStrongPassword(input: String) {
+function generateStrongPassword(input: string) {
   const specialChars = ["@", "#", "$", "%", "^", "&", "*", "!", "?"];
   const numbers = "0123456789";
   let password = input;
