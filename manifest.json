@@ -1,0 +1,27 @@
+{
+  "name": "Ultimate Password Generator",
+  "short_name": "PasswordGen",
+  "description": "Tired of weak passwords? Secure your online accounts with Ultimate Password Generator! 🔒",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1D4ED8",
+  "icons": [
+    {
+      "src": "/src/assets/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/src/assets/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "features": [
+    "Reference-Based Passwords: Easily create a memorable yet secure password based on references like your pet's name.",
+    "Random Password Generator: Generate strong, random passwords with a click!",
+    "Copy & Use: Instantly copy your new password for quick and easy use."
+  ],
+  "categories": ["productivity", "utilities", "security"]
+}
